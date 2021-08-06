@@ -41,41 +41,7 @@ $('.slider').slick({
         // instead of a settings object
     ]
 });
-$('.slider-920').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
-});
+
 $('.projects__slider').slick({
     dots: true,
     speed: 300,
@@ -95,4 +61,15 @@ $('.click').on('click' , function (){
         console.log('lox')
     }
 
+})
+$('.dropbtn').on('click touch', function (){
+    console.log('yes')
+    if ($('.dropdown-content').hasClass("active__menu")){
+        $('.dropdown-content').css('display', 'none').removeClass('active__menu')
+        $('.dropbtn').css('background-color', 'white')
+        console.log('has class')
+    } else{
+        $('.dropdown-content').addClass("active__menu").css('display', 'block')
+        $('.dropbtn').css('background-color', 'gray')
+    }
 })
