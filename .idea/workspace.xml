@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5052b04-c5bb-4f21-9ec3-ad5884ab2518" name="Default Changelist" comment="">
+    <list default="true" id="a5052b04-c5bb-4f21-9ec3-ad5884ab2518" name="Default Changelist" comment="bulj">
+      <change afterPath="$PROJECT_DIR$/../openAd/css/architecture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/architecture.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/architecture.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/fonts.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openAd/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +49,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ampps\www\front\u-industry\libs" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,8 +70,28 @@
       <workItem from="1626979321620" duration="57280000" />
       <workItem from="1627670111814" duration="17567000" />
       <workItem from="1627807999391" duration="10977000" />
-      <workItem from="1628013198773" duration="13658000" />
+      <workItem from="1628013198773" duration="14336000" />
+      <workItem from="1628530627284" duration="614000" />
+      <workItem from="1651941484669" duration="3061000" />
+      <workItem from="1651949742230" duration="1263000" />
+      <workItem from="1651991075148" duration="4414000" />
+      <workItem from="1652033515805" duration="1060000" />
     </task>
+    <task id="LOCAL-00001" summary="bulj">
+      <created>1628237593080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628237593081</updated>
+    </task>
+    <task id="LOCAL-00002" summary="bulj">
+      <created>1628530776892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628530776892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +108,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bulj" />
+    <option name="LAST_COMMIT_MESSAGE" value="bulj" />
   </component>
 </project>
