@@ -1,0 +1,18 @@
+//fail type
+const path = require('path')
+
+console.log(path.extname(file))
+
+//file size
+const fs = require('fs');
+const path = require('path')
+
+fs.readdir('folder', (err, data) => {
+    console.log(data);
+    data.forEach(file => {
+        console.log(file + ' ' + path.extname(file));
+        console.log(fs.statSync('folder/' + file).size)
+    });
+});
+
+ABOBA

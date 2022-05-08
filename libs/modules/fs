@@ -1,0 +1,31 @@
+//glob
+const glob = require('glob');
+const fs = require('fs');
+
+let files = glob.sync('folder/**/*.txt');
+
+files.forEach(filename => {
+    console.log("remove fail: " + filename);
+     fs.unlinkSync(filename);
+});
+
+let folders = glob.sync('folder/**')
+
+folders.forEach(folder => {
+    console.log('remove folder: ' + folder);
+    fs.rmdirSync(folder);
+})
+
+
+//fails reading
+const fs = require('fs');
+
+let content = fs.readFileSync('folder/text.txt', 'utf-8');
+
+console.log(content);
+
+//fail writing
+fs.writeFileSync('folder/newFail.txt', 'text in new fail');
+
+
+ABOBA
